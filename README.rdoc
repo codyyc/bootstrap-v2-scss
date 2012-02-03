@@ -1,0 +1,24 @@
+== Welcome to Bootstrap v2 SASS-ed for Rails v3.2.1
+
+Twitter's Bootstrap v2 has recently been released. Unfortunately it was designed for the CSS pre-processor LESS and not SASS. This package contains the SCSS-ified version of it along with a guide on how to get it installed.
+
+I apologise for any errors as this is the first community project (albeit a small one) that I have done. 
+
+This is designed to work under the new asset pipeline.
+
+
+== Quick Usage Guide
+
+There isn't a lot that you have to do to get this all ready and working, but here are the steps:
+
+1. Drop <tt>bootstrap.scss</tt> and the <tt>bootstrap</tt> folder into the <tt>/vendor/assets/stylesheets</tt> folder.
+
+2. Add the following line of code to <tt>app/assets/stylesheets/application.css</tt>
+
+  //= require bootstrap
+
+3. If you wish to have Bootstrap included in all the views on your site (and you are using HAML), add the following line of code to your <tt>app/views/layouts/application.html.haml</tt>
+
+  = stylesheet_link_tag    "application", :media => "all"
+
+This should get you all up and running. Enjoy!
