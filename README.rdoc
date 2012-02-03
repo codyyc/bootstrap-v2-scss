@@ -7,7 +7,7 @@ I apologise for any errors as this is the first community project (albeit a smal
 This is designed to work under the new asset pipeline.
 
 
-== Quick Usage Guide
+== Quick Installation Guide
 
 There isn't a lot that you have to do to get this all ready and working, but here are the steps:
 
@@ -15,9 +15,11 @@ There isn't a lot that you have to do to get this all ready and working, but her
 
 2. Add the following line of code to <tt>app/assets/stylesheets/application.css</tt>
 
-//= require bootstrap
+  //= require bootstrap
 
-3. If you wish to have Bootstrap included in all the views on your site (and you are using HAML), add the following line of code to your <tt>app/views/layouts/application.html.haml</tt>
+== Usage Guide
+
+If you wish to have Bootstrap included in all the views on your site (and you are using HAML), add the following line of code to your <tt>app/views/layouts/application.html.haml</tt>
 
   = stylesheet_link_tag    "application", :media => "all"
 
