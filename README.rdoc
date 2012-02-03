@@ -15,13 +15,16 @@ There isn't a lot that you have to do to get this all ready and working, but her
 
 2. Add the following line of code to <tt>app/assets/stylesheets/application.css</tt>
 
-  //= require bootstrap
+  @import "bootstrap";
 
 == Usage Guide
 
 If you wish to have Bootstrap included in all the views on your site (and you are using HAML), add the following line of code to your <tt>app/views/layouts/application.html.haml</tt>
 
   = stylesheet_link_tag    "application", :media => "all"
+
+Include all your CSS definitions below the <tt>@import</tt> in the <tt>app/assets/stylesheets/application.css</tt> folder.
+
 
 
 This should get you all up and running. Enjoy!
