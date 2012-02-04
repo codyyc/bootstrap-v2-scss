@@ -23,7 +23,7 @@ If you wish to have Bootstrap included in all the views on your site (and you ar
 
   = stylesheet_link_tag    "application", :media => "all"
 
-Include all your CSS definitions below the <tt>@import</tt> in the <tt>app/assets/stylesheets/application.css</tt> folder.
+Include all your CSS definitions below the <tt>@import</tt> in the <tt>app/assets/stylesheets/application.css</tt> file.
 
 
 
